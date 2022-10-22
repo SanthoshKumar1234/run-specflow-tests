@@ -16,9 +16,12 @@ jobs:
 
     steps:
        - name: Download artifact
-         uses: aochmann/actions-download-artifact@1.0.4
+         uses: actions/download-artifact@v3
          with:
-           github_token:  ${{github.token}}
            repo:  ${{github.repository}}
            name: Specflow Test Results
+           
+       -  name: Display structure of downloaded files
+          run: ls -R
+            
  
