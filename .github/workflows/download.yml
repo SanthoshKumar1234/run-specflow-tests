@@ -22,6 +22,8 @@ jobs:
            name: Specflow Test Results
            
        -  name: Display structure of downloaded files
-          run: ls -R
+          run: |
+             gh run download 1
+             ls
             
  
