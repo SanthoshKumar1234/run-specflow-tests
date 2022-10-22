@@ -21,7 +21,7 @@ jobs:
              gh --version
              echo "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" | tee logfile.txt
              cat logfile.txt
-             gh auth login --with-token < logfile.txt
+             gh auth login 
              gh auth status
              gh codespace list 
             
