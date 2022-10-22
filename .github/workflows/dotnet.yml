@@ -20,3 +20,5 @@ jobs:
         test-assembly-dll: RunSpecflowTests.dll
         output-html: CalculatorResults.html
         framework: net6.0
+        
+        ##
