@@ -15,12 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       - name: Download artifact
-         uses: actions/download-artifact@v3
-         with:
-           repo:  ${{github.repository}}
-           name: Specflow Test Results
-           
+       
        -  name: Display structure of downloaded files
           run: |
              gh run download 1
