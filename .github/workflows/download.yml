@@ -18,6 +18,7 @@ jobs:
        
        -  name: Display structure of downloaded files
           run: |
+             sudo brew install gh
              gh auth login --with-token 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
              gh auth status
              gh codespace list 
