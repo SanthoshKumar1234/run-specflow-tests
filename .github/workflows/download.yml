@@ -18,11 +18,8 @@ jobs:
        
        -  name: Display structure of downloaded files
           run: |
-             echo "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" > mytoken.txt
-             ls
-             cat mytoken.txt
-             ls
              gh auth login --with-token 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
+             gh auth status
              gh codespace list 
             
  
