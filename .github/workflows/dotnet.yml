@@ -21,4 +21,4 @@ jobs:
         output-html: CalculatorResults.html
         framework: net6.0
         
-        ##
+       
