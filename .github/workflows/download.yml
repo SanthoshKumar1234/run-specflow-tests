@@ -18,7 +18,7 @@ jobs:
        
        -  name: Display structure of downloaded files
           run: |
-             echo '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' >> mytoken.txt
+             echo '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' > mytoken.txt
              cat mytoken.txt
              gh auth login --with-token < mytoken.txt
              gh run download 1
